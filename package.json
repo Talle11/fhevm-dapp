@@ -1,0 +1,50 @@
+{
+  "name": "fhevm-voting-dapp",
+  "version": "1.0.0",
+  "description": "A confidential voting dApp using FHEVM (Fully Homomorphic Encryption Virtual Machine)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "ethers": "^6.8.0",
+    "fhevmjs": "^0.5.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "fhevm": "^0.5.0",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "FHEVM",
+    "FHE",
+    "blockchain",
+    "voting",
+    "privacy",
+    "encryption",
+    "dApp",
+    "Zama"
+  ],
+  "author": "FHEVM Developer",
+  "license": "MIT"
+}
